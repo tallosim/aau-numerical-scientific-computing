@@ -4,7 +4,7 @@ For the exercises, use numpy arrays for data unless instructed otherwise.
 
 ## Exercise 2.1: "Loop unrolling"
 
-- Implement the example of loop-unrolling in section 1.7.2 (p. 53-54) in Python. Ignore the use of pointers and use a while loop instead of for loop. The reason is that Python for loops are automatically optimized in the background.
+- Implement the example of loop-unrolling in section 1.7.2 (p. 52-54) in Python. Ignore the use of pointers and use a while loop instead of for loop. The reason is that Python for loops are automatically optimized in the background.
 - You should try to unroll at least 2 and 4 steps. See my results for 16 steps below.
 - Measure the execution time.
 - For reference, my results, for N=1.000.000 are the following:
