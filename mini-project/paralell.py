@@ -22,10 +22,10 @@ def mandelbrot_chunk(c, I, T):
     
     return M
 
-def mandelbrot_paralell(c, I, T, P, chunk_size):
+def mandelbrot_paralell(c, I, T, P, C):
     pool = mp.Pool(processes=P)
 
-    results = [pool.apply_async(mandelbrot_chunk, args=(c[i:i+chunk_size, :], I, T)) for i in range(0, c.shape[0], chunk_size)]
+    results = [pool.apply_async(mandelbrot_chunk, args=(c[i:i+C, :], I, T)) for i in range(0, c.shape[0], C)]
 
     pool.close()
     pool.join()
