@@ -1,0 +1,17 @@
+Implementation,Float Datatype,Time
+mandelbrot_naive,float,565.0782651901245
+mandelbrot_vectorized,float,10.200960874557495
+mandelbrot_numba,float,2.6294000148773193
+mandelbrot_paralell,float,272.9465320110321
+mandelbrot_naive,float16,608.964812040329
+mandelbrot_vectorized,float16,13.244822025299072
+mandelbrot_numba,float16,
+mandelbrot_paralell,float16,6408.192588806152
+mandelbrot_naive,float32,949.4078979492188
+mandelbrot_vectorized,float32,9.84925389289856
+mandelbrot_numba,float32,3.120640993118286
+mandelbrot_paralell,float32,371.3291440010071
+mandelbrot_naive,float64,899.3735108375549
+mandelbrot_vectorized,float64,16.46801519393921
+mandelbrot_numba,float64,2.8890469074249268
+mandelbrot_paralell,float64,374.21827507019043
